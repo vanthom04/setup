@@ -21,11 +21,15 @@ Write-Done
 
 Write-Start -msg "Initializing Scoop..."
    scoop install git
-   #scoop install nodejs
    scoop bucket add extras
    scoop bucket add nerd-fonts
    scoop bucket add java
    scoop update
+Write-Done
+
+Write-Start -msg "Installing Scoop's packages"
+   scoop install <# Web brower #> googlechrome firefox
+   scoop install <# Coding #> vscode gcc nodejs openjdk python
 Write-Done
 
 
