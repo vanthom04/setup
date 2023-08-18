@@ -28,7 +28,8 @@ Write-Start -msg "Initializing Scoop..."
 Write-Done
 
 Write-Start -msg "Installing Scoop's packages"
-   scoop install <# Web brower #> googlechrome firefox
+   scoop install <# Web brower #> googlechrome
+   scoop install <# App #> winrar foxit-reader microsoft-teams powertoys sublime-text
    scoop install <# Coding #> vscode gcc nodejs openjdk python
 Write-Done
 
